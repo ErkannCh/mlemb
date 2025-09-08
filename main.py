@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import joblib
 
-model = joblib.load("../regression.joblib")
+model = joblib.load("regression.joblib")
 
 app = FastAPI()
 
